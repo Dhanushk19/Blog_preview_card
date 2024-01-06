@@ -1,0 +1,16 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "FigTree";
+}
+@font-face {
+  font-family: "FigTree";
+  src: url('../src/assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "FigTreeItalic";
+  src: url('../src/assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+

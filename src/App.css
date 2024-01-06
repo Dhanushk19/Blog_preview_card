@@ -1,0 +1,88 @@
+.full_card
+{
+  background-color:hsl(47, 88%, 63%) ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5%;
+  border: 2px solid hsl(0, 0%, 7%);
+  width: 55vh;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 3.5%;
+  box-shadow: 10px 10px;
+}
+
+.image
+{
+  border-radius: 3.5%;
+}
+
+.para{
+
+  margin-top: 8.5%;
+}
+
+.para *
+{
+  margin-top: 5%;
+}
+
+.learn
+{
+  display: inline;
+  background:hsl(47, 88%, 63%)  ;
+  font-weight: 800;
+  padding: 2%;
+  border-radius: 5.5%;
+  
+}
+
+.pub
+{
+  font-weight: 600;
+}
+.sub_para
+{
+  color:  hsl(0, 0%, 50%);
+  font-weight: 600;
+}
+
+
+.heading:hover
+{
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  
+}
+
+.imagedp
+{
+  width: 2.5rem;
+}
+
+.name
+{
+  font-weight: 800;
+  padding-left: 5%;
+}
+
+.author
+{
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width:375px) {
+    .card{
+      width:43vh;
+      padding: 5%;
+      font-size: 16px;
+    }
+}
